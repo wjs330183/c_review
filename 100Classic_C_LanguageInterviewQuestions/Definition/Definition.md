@@ -24,17 +24,17 @@ e)`int (*a[10])(int)`
 3. 函数指针有两个用途：调用函数和做函数的参数。
 1) 
 `
-#include <stdio.h>  
-#include <stdlib.h>  
-void (*pfun)(int data);  
-void myfun(int data)  
-{  
-	printf("get data:%d\n",data);  
-}  
-int main(int argc,char *argv[])  
-{  
-	pfun = myfun;  
-	(*pfun)(100);  
-	return 0;  
-}  
+#include <stdio.h>                 
+#include <stdlib.h>                
+void (*pfun)(int data);                
+void myfun(int data)                
+{                
+	printf("get data:%d\n",data);                
+}                
+int main(int argc,char *argv[])                
+{                
+	pfun = myfun;                 
+	(*pfun)(100);                
+	return 0;                 
+}                 
 `
