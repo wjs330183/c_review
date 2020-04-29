@@ -3,10 +3,10 @@
 ##### g) 一个指向函数的指针，该函数有一个整型参数并返回一个整型数;
 ##### h) 一个有10个指针的数组，该指针指向一个函数，该函数有一个整型参数并返回一个整型数;      
 ### 【标准答案】
-e)` int *a[10];`                
-f)` int (*a)[10];`                
-g)` int (*a)(int);`   
-e)`int (*a[10])(int)`
+e)` int *TwoStackInsteadHeap[10];`                
+f)` int (*TwoStackInsteadHeap)[10];`                
+g)` int (*TwoStackInsteadHeap)(int);`   
+e)`int (*TwoStackInsteadHeap[10])(int)`
 ### 【答案解析】
 #### e) f)
 1. 指针数组：首先它是一个数组，数组的元素都是指针。  
