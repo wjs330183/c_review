@@ -30,7 +30,7 @@ public class TStackInsteadHeap {
             heap.push(i);
         }
         System.out.println("start pop");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++ ) {
             int pop = heap.pop();
             System.out.println("pop = " + pop);
 
